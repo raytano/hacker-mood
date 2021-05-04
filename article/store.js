@@ -29,7 +29,7 @@ function ready() {
 function purchaseClicked() {
     alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
-    document.location.replace("../cart/index.html")
+    document.location.replace("../redirection/redirection.html")
 }
 
 function removeCartItem(event) {

@@ -45,7 +45,7 @@ const cleaveCCV = new Cleave("#cardCcv", {
   blocks: [3],
 });
 function redire(){
-  alert("Connexion obligatoire !!!")
-  location.replace("https://raytano.github.io/hacker-mood/form/loginAchat.html")
-  alert("connecter")
+  alert("Envoie de la carte pour une verification  !!!")
+  alert("Vous recevrez un message de confirmation d'ici 8 heures")
+  alert("Merci pour votre achat")
 }

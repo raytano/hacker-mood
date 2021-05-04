@@ -7,7 +7,7 @@ var objPeople = [
 	
 	{ // Object @ 1 index
 		username: "raytano",
-		password: "Pirate13"
+		password: ""
 	},
 
 ]
@@ -21,7 +21,7 @@ function getInfo() {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(username == objPeople[i].username && password == objPeople[i].password) {
             alert("welcome " + username)
-            window.location.replace("../chall/challenge.html")
+            window.location.replace("../cart/index.html")
 
 			
 
@@ -31,9 +31,6 @@ function getInfo() {
 				
 			return
 			
-		}
-		else{
-			alert("login or password incorrect !!!")
 		}
 	}
 }
