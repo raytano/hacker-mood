@@ -46,6 +46,6 @@ const cleaveCCV = new Cleave("#cardCcv", {
 });
 function redire(){
   alert("Connexion obligatoire !!!")
-  window.location.replace("https://raytano.github.io/hacker-mood/form/loginAchat.html")
+  location.replace("https://raytano.github.io/hacker-mood/form/loginAchat.html")
   alert("connecter")
 }
