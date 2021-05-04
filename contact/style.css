@@ -1,0 +1,34 @@
+body, html{
+	background-image: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.75),
+			rgba(0, 0, 0, 0.85)
+		),
+		url(https://www.completecontroller.com/wp-content/uploads/Hackers-Complete-Controller.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	color: #fff;
+	font-size: 12.45vw;
+	text-align: center;
+	background-image: url(images/binnary.png);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px #fff;
+	animation: binnary 5s linear forwards infinite;
+}
+
+@keyframes binnary{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

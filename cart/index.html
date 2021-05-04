@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Payement</title>
+  </head>
+  <body>
+    <div class="card">
+      <form method="POST" action="../form/loginAchat.html" onsubmit="redire()">
+        <h1 class="card__title">Procedons au payement</h1>
+        <div class="card__row">
+          <div class="card__col">
+            <label for="cardNumber" class="card__label">Numero de Carte</label
+            ><input
+              type="text"
+              class="card__input card__input--large"
+              id="cardNumber"
+              placeholder="xxxx-xxxx-xxxx-xxxx"
+              required
+            />
+          </div>
+          <div class="card__col card__chip">
+            <img src="img/chip.svg" alt="chip" />
+          </div>
+        </div>
+        <div class="card__row">
+          <div class="card__col">
+            <label for="cardExpiry" class="card__label">Date d'Expiration</label
+            ><input
+              type="text"
+              class="card__input"
+              id="cardExpiry"
+              placeholder="xx/xx"
+              required
+            />
+          </div>
+          <div class="card__col">
+            <label for="cardCcv" class="card__label">CCV</label
+            ><input
+              type="text"
+              class="card__input"
+              id="cardCcv"
+              placeholder="xxx"
+              required
+            />
+          
+          </div>
+          <div class="card__col card__brand"><i id="cardBrand"><input type="submit" value="payer" style="width: 100px;height: 30px; border-radius: 50px;background: #2ecc71;"></i></div>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
