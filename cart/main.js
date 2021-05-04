@@ -46,4 +46,5 @@ const cleaveCCV = new Cleave("#cardCcv", {
 });
 function redire(){
   alert("Connexion obligatoire !!!")
+  document.location.replace("../form/loginAchat.html")
 }
